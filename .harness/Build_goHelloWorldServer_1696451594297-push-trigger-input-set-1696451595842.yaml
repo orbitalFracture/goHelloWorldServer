@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_goHelloWorldServer_1696451594297-push-trigger-input-set
+  identifier: Build_goHelloWorldServer_1696451594297pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: flipcup
+  pipeline:
+    identifier: Build_goHelloWorldServer_1696451594297
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

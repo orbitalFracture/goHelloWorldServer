@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_goHelloWorldServer_1696451594297-pr-trigger-input-set
+  identifier: Build_goHelloWorldServer_1696451594297prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: flipcup
+  pipeline:
+    identifier: Build_goHelloWorldServer_1696451594297
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
